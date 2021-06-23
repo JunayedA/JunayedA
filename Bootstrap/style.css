@@ -1,0 +1,16 @@
+.container-1{
+    background-color: aqua;
+    padding: 1.5rem;
+}
+
+.row{
+    background-color: chartreuse;
+    padding: 1.5rem;
+}
+
+[class*="col"]{
+    background-color: crimson;
+    padding: 1.5rem;
+    border: 1px solid white;
+    font-size: xx-large;
+}

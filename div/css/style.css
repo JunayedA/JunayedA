@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media(min-width:760px){
+    .jun-2{
+        display: flex;
+        justify-content: space-between;
+        }
+        .jun{
+            background-color: yellow;
+            display: flex;
+            align-items: stretch;
+            flex-direction: row;
+        }
+}
+body{
+    background-color:#4f4f4f4f;
+    color:#55555;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:normal;
+    line: hight 1.6em;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: violet;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border:none;
+}
+.button:hover{
+    background-color: red;
+    color: lime;
+}
+.clr{
+    clear: both;
+}
+.box-1{
+    background-color: #333;
+    color:white;
+    border: 5px red solid;
+    padding: 20px;
+    margin: 20px;
+}
+.hi{
+   width: 80%;
+   margin: auto;
+}
+.box-1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: italic;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    word-spacing: 0.5em;
+    letter-spacing: 0.2em;
+}
+.box-1 p{
+    text-align: justify;
+}
+.box-2{
+    border: 1px dotted #333;
+    padding: 20px;
+    margin: 20px;
+}
+.box-2 h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.box-2 p{
+   text-align: justify;
+   line-height: 1.5em;
+}
+.hello{
+    border: 1px solid #333;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.hello h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.hello ul li{
+    border-bottom: 1px dotted #333;
+    list-style-image: url(../img2/download.jpg)
+}
+.hello ul{
+    padding: 20px;
+    list-style: square;
+    list-style: none;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .from-group{
+padding-bottom: 15px;
+}
+.my-form input[type="text"],
+.my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.main-block{
+    float: left;
+    margin-top: 20px;
+    width: 70%;
+    border: black solid 1px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.sidebar{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.p-box{
+    margin:20px;
+    border: 1px solid black;
+    height: 400px;
+    position: relative;
+    background-image: url(../img2/download\ \(1\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.p-box h2{
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+}
+.fix-me{
+    top: 400px;
+    left: 0px;
+    position: fixed;
+}
+.my-list{
+    margin-left: 40px;
+    list-style: none;
+}
+.my-list li:first-child{
+    background-color: red;
+}
+.my-list li:last-child{
+    background-color: green;
+}
+.my-list li:nth-child(even){
+    background-color:gray;
+}
+.jun{
+    background-color: yellow;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+.jun div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.ayed-1{
+    flex: 1;
+    order: 2;
+}
+.ayed-2{
+    flex: 2;
+    order: 1;
+}
+.ayed-3{
+    flex: 1;
+    order:
+}
+.jun-2{
+display: flex;
+justify-content: space-between;
+}
+.ayed-4{
+    border: 1px solid red;
+    padding: 20px;
+    flex-basis: 20%;
+}
+.ayed-5{
+    background-color: purple;
+    padding: 20px;
+    border: 1px solid green;
+    flex-basis: 7%;
+}
+.jun-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid{
+display: grid;
+grid-template-columns: 70% 30%;
+grid-column-gap:20px;
+grid-row-gap:20px;
+}
+.grid>div{
+    background-color: green;
+    padding: 20px;
+}
+.grid>div:nth-child(odd){
+    background-color: lime;
+}
+.grid-1{
+display: grid;
+/* grid-template-columns: 1fr 1fr 1fr; */
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 1em;
+/* grid-auto-rows: 100px; */
+grid-auto-rows: minmax(100px, auto);
+}
+.grid-1>div{
+    background-color: maroon;
+    padding: 20px;
+}
+.grid-1>div:nth-child(odd){
+    background-color: lightcoral;
+}
+.bot-1{
+display: grid;
+grid-template-columns:1fr 2fr 1fr;
+grid-auto-rows: 100px, auto;
+grid-gap: 1em;
+justify-items: stretch;
+align-items: stretch;
+}
+.noob-1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.noob-2{
+grid-column: 3;
+grid-row: 1/3;
+}
+.noob-3{
+grid-column: 2/4;
+}
+.noob-4{
+grid-row: 2/4;
+grid-column: 1;
+border: 1px solid black;
+}
+
+.bot-1>div{
+    padding: 20px;
+    background: lightseagreen;
+}
+.bot-1>div:nth-child(odd){
+    background: lightskyblue;
+}

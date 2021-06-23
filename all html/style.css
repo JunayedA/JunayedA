@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+
+
+.xy{
+	border: 2px black solid;
+}
+td{
+	border: 2px black solid;
+}
+.qw{
+	background-color: red;
+}
+.er{
+	background-color: green;
+}
+.jun{
+	text-align: center;
+	border: 1em solid black;
+	padding: 20px;
+	background-color: #9900cc;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Pangolin', cursive;
+	border-radius: 1em;
+}
+.yed{
+	text-align: center;
+	background-color:  rgb(0, 0, 0);
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.oi{
+	text-align: center;
+	background-color: rgb(251, 255, 14);
+	padding-bottom: 50px;
+}
+.hi{
+	background-color: rgb(236, 252, 11);
+	text-align: center;
+	padding-bottom: ;
+}
+.hi i {
+	padding-left: 50px;
+	font-size: 100px;
+}

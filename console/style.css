@@ -1,0 +1,27 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-family: ui-sans-serif;
+}
+.jun{
+    border: 20px solid black ;
+    text-align: justify;
+    padding: 30px;
+    margin: 20px ;
+    background-color: teal;
+}
+p{
+    font-size: 20vh;
+}
+@media only screen and (max-width:750px){
+.jun{
+    textarea:justify
+}
+}

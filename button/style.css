@@ -1,0 +1,7 @@
+button{
+    background-color: tomato;
+}
+button:hover{
+    background-color: teal;
+    transition: all 1s ease 0s;
+}

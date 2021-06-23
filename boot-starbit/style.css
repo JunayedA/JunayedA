@@ -1,0 +1,14 @@
+/* .container{
+    background-color: red;
+} */
+.col{
+    background-color: royalblue;
+    border: 2px solid white;
+    min-height: 120px;
+}
+.card{
+    width: 300px;
+}
+/* ul{
+    width: 300px;
+} */
