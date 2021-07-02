@@ -83,13 +83,16 @@
 
 // allLaps();
 
-let countEl = document.getElementById("count-el")
+let countEl = document.getElementById('count-el')
+let count =0
 
-console.log(countEl)
-
-let count = 0;
 function increment(){
     console.log(count)
     count = count + 1
     countEl.innerText = count
 }
+
+function save(){
+    console.log(count)
+}
+
